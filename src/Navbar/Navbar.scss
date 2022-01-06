@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+
+    nav {
+        .nav-list {
+            list-style: none;
+            display: flex;
+
+            .nav-link-item {
+                margin: 0 1em;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .nav-cta {
+        padding: 1em 1.8em;
+        border-radius: 20px;
+        color: white;
+        background-color: orange;
+        border: none;
+        cursor: pointer;
+    }
+}
