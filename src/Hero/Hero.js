@@ -11,10 +11,10 @@ const Hero = () => {
     </div>
     <div className="hero-right">
         <div className="background-image-container">
-            <img className="background-image" src={BackgroundImage}/>
+            <img className="background-image" src={BackgroundImage} alt="background"/>
         </div>
         <div className="background-hero-image">
-            <img className="hero-image" src={HeroImage}/>
+            <img className="hero-image" src={HeroImage} alt="hero"/>
         </div>
     </div>
   </div>
