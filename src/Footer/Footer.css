@@ -1,0 +1,98 @@
+.footer {
+  background-color: #0b0c22;
+  padding: 2em 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  color: white;
+}
+
+.footer .footer-col-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-col-1 .footer-socials .footer-social-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer-col-1 .footer-socials .footer-social-list .footer-social-link {
+  margin: 0 .5em;
+}
+
+.footer .footer-col-2 .footer-nav-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100%;
+}
+
+.footer .footer-col-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.footer .footer-col-4 .footer-email-req {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.footer .footer-col-4 .footer-email-req input {
+  height: 30px;
+  width: 200px;
+  margin: 0 1.5em;
+  border-radius: 20px;
+  border: none;
+  padding: .5em 1em;
+}
+
+.footer .footer-col-4 .footer-email-req button {
+  height: 30px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f3603c;
+}
+
+.footer .footer-col-4 .footer-copyright {
+  width: 100%;
+  text-align: right;
+  color: grey;
+}
+/*# sourceMappingURL=Footer.css.map */

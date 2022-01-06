@@ -1,0 +1,56 @@
+.footer-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 4em;
+  margin-top: 100px;
+  background-color: #f3603c;
+  color: white;
+}
+
+.footer-banner .footer-banner-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  text-align: left;
+  margin: 0;
+  font-size: 2rem;
+  width: 50%;
+}
+
+.footer-banner .footer-banner-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: left;
+  margin: 0;
+  width: 50%;
+}
+
+.footer-banner .footer-banner-right button {
+  width: 140px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  border: 1px solid #f3603c;
+  background-color: white;
+  color: #f3603c;
+  font-weight: bold;
+  margin: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=FooterBanner.css.map */

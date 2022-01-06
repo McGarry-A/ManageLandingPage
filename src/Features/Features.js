@@ -8,11 +8,11 @@ const Features = () => {
             <div className="features-left">
                 <h2 className="features-title">What's different about Manage?</h2>
                 <p className="features-subtitle">Manage provides all the functionality that your team needs, without the complexity. Our software is tailor made for modern digital product teams.</p>
-                <img src={BackgroundImage} className="features-background-image"/>
+                <img src={BackgroundImage} alt="background" className="features-background-image"/>
             </div>
             <div className="features-right">
                 {FeaturesArr.map((el, index) => {
-                    return <Feature number={el.number} title={el.title} description={el.description} />
+                    return <Feature number={el.number} title={el.title} description={el.description} key={index} />
                 })}
             </div>
         </div>
