@@ -1,17 +1,15 @@
-.slider-container .testimonials-container {
+.testimonials-container {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 8em 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding: 8em 0;
 }
 
-.slider-container .testimonials-container .testimonial {
+.testimonials-container .testimonial {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,40 +17,27 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 2em;
-  margin: 0 5em;
-  background-color: #faf7f7;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 1000px;
-  height: 200px;
-  cursor: -webkit-grab;
-  cursor: grab;
-}
-
-.slider-container .testimonials-container .testimonial .testimonial-avatar {
-  height: 100px;
-  margin-top: -100px;
-}
-
-.slider-container .testimonials-container .testimonial .testimonial-author {
-  font-weight: bold;
-  margin: 1em 0;
-  font-style: normal;
-}
-
-.slider-container .testimonials-container .testimonial .testimonial-quote {
-  width: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 10px;
+  background-color: #fafafa;
+  height: 100%;
   text-align: center;
-  font-style: normal;
-  font-weight: lighter;
+  padding: 1em;
+  overflow: visible;
 }
 
-.slider-container .testimonials-container .testimonial .image-item {
-  padding: 20px 0 20px 20px;
+.testimonials-container .testimonial .testimonial-avatar {
+  margin-top: -50px;
+  height: 80px;
+}
+
+.testimonials-container .testimonial .testimonial-author {
+  padding: 1em 0;
+}
+
+.testimonials-container .testimonial .testimonial-quote {
+  padding: 1em 0;
 }
 /*# sourceMappingURL=Testimonial.css.map */

@@ -4,7 +4,7 @@
     padding: 60px 4em;
     margin-top: 100px;
     background-color: #f3603c;
-    color: white;
+    
     
     .footer-banner-left {
         display: flex;
@@ -13,6 +13,10 @@
         margin: 0;
         font-size: 2rem;
         width: 50%;
+ 
+        .footer-banner-text {
+            color:white;
+        }
     }
     .footer-banner-right {
         display: flex;
@@ -24,6 +28,7 @@
         button {
             width: 140px;
             padding: 1rem 2rem;
+            font-size: .8rem;
             border-radius: 20px;
             border: 1px solid #f3603c;
             background-color: white;

@@ -4,7 +4,7 @@ const FooterBanner = () => {
     return (
     <div className="footer-banner">
         <div className="footer-banner-left">
-            <h2>Simplify how your team works today.</h2>
+            <h2 className="footer-banner-text">Simplify how your team works today.</h2>
         </div>
         <div className="footer-banner-right">
             <button>Get Started</button>
