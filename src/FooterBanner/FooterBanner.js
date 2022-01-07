@@ -1,4 +1,5 @@
 import "./FooterBanner.css"
+import {ReactComponent as BackgroundImage} from "../images/bg-simplify-section-desktop.svg"
 
 const FooterBanner = () => {
     return (
@@ -8,6 +9,9 @@ const FooterBanner = () => {
         </div>
         <div className="footer-banner-right">
             <button>Get Started</button>
+        </div>
+        <div>
+            <BackgroundImage fill="#f25f3a" className="background-one"/>
         </div>
     </div>
     )

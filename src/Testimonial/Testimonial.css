@@ -26,11 +26,14 @@
   text-align: center;
   padding: 1em;
   overflow: visible;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 
 .testimonials-container .testimonial .testimonial-avatar {
   margin-top: -50px;
   height: 80px;
+  padding-bottom: .5em;
 }
 
 .testimonials-container .testimonial .testimonial-author {

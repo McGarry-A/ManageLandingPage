@@ -15,10 +15,11 @@
     text-align: center;
     padding: 1em;
     overflow: visible;
-
+    cursor: grabbing;
     .testimonial-avatar {
       margin-top: -50px;
       height: 80px;
+      padding-bottom: .5em;
     }
 
     .testimonial-author {

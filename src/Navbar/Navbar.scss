@@ -6,6 +6,8 @@ header {
     align-items: center;
 
     nav {
+        display: flex;
+        align-items: center;
         .nav-list {
             list-style: none;
             display: flex;
@@ -18,6 +20,8 @@ header {
     }
 
     .nav-cta {
+        display: flex;
+        align-items: center;
         padding: 1em 1.8em;
         border-radius: 20px;
         color: white;

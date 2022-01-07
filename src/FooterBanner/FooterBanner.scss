@@ -4,6 +4,8 @@
     padding: 60px 4em;
     margin-top: 100px;
     background-color: #f3603c;
+    position: relative;
+    overflow: hidden;
     
     
     .footer-banner-left {
@@ -27,7 +29,7 @@
         
         button {
             width: 140px;
-            padding: 1rem 2rem;
+            padding: 1rem 1.5rem;
             font-size: .8rem;
             border-radius: 20px;
             border: 1px solid #f3603c;
@@ -39,6 +41,12 @@
             display: flex;
             justify-content: center;
           }
+    }
+
+    .background-one {
+        position: absolute;
+        left: 200px;
+        bottom: 0;
     }
 }
 
