@@ -50,4 +50,18 @@
     }
 }
 
+@media screen and (max-width:500px) {
+    .footer-banner {
+        flex-direction: column;
 
+        .footer-banner-left {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer-banner-right {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}

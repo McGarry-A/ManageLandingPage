@@ -33,6 +33,10 @@ header nav .nav-list .nav-link-item {
   cursor: pointer;
 }
 
+header nav .nav-list .nav-hamburger {
+  display: none;
+}
+
 header .nav-cta {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,5 +50,22 @@ header .nav-cta {
   background-color: #f3603c;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 2em;
+  }
+  header nav .nav-link-item {
+    display: none;
+  }
+  header nav .nav-list .nav-hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .nav-cta-container {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Navbar.css.map */

@@ -16,9 +16,9 @@
   color: white;
   text-align: center;
   margin: 0 1em;
-  padding: .8em 1.3em;
+  padding: 0.8em 1.3em;
   border-radius: 20px;
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: bolder;
 }
 
@@ -34,7 +34,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0;
-  padding: .5em 0;
+  padding: 0.5em 0;
 }
 
 .feature .feature-col-2 .feature-title {
@@ -45,5 +45,42 @@
 .feature .feature-col-2 .feature-description {
   width: 75%;
   margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .feature {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .feature .feature-col-1 {
+    margin: .4em;
+    margin-left: -3em;
+  }
+  .feature .feature-col-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feature .feature-col-2 .feature-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50px;
+  }
+  .feature .feature-col-2 .feature-description {
+    text-align: left;
+    width: 125%;
+  }
 }
 /*# sourceMappingURL=Feature.css.map */

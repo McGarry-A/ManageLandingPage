@@ -24,3 +24,30 @@
     }
   }
 }
+
+
+@media screen and (max-width:500px) {
+  .features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+
+    .features-left {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+
+      .features-title {
+        font-size: 2em;
+        padding-bottom: 0;
+      }
+
+      .features-subtitle {
+        width: 100%;
+        padding-bottom: 40px;
+      }
+    }
+  }
+}

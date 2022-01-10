@@ -65,4 +65,23 @@
   left: 200px;
   bottom: 0;
 }
+
+@media screen and (max-width: 500px) {
+  .footer-banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-banner .footer-banner-left {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-banner .footer-banner-right {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=FooterBanner.css.map */

@@ -1,5 +1,6 @@
 .testimonialsSection-title {
   text-align: center;
+  margin-top: 200px;
 }
 
 button {
@@ -16,5 +17,23 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .testimonials-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=TestimonialsSection.css.map */

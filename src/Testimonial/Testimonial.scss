@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
-    background-color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 8%, 95%);
     height: 100%;
     text-align: center;
     padding: 1em;
@@ -28,6 +28,19 @@
 
     .testimonial-quote {
       padding: 1em 0;
+    }
+  }
+}
+
+@media screen and (max-width:500px) {
+  .testimonials-container {
+    .testimonial {
+      .testimonial-avatar {
+        width: 15%;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: -50px auto 0 auto;
+      }
     }
   }
 }
