@@ -104,3 +104,13 @@
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  .hero {
+    .hero-left {
+      .hero-cta {
+        margin-bottom: 200px;
+      }
+    }
+  }
+}

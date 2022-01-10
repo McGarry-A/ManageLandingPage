@@ -84,4 +84,10 @@
             justify-content: center;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .footer-banner .footer-banner-left {
+    font-size: 1.2em;
+  }
+}
 /*# sourceMappingURL=FooterBanner.css.map */

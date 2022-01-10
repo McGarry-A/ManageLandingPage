@@ -62,4 +62,11 @@
     padding-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .features {
+    height: 600px;
+    margin-bottom: 100px;
+  }
+}
 /*# sourceMappingURL=Features.css.map */
