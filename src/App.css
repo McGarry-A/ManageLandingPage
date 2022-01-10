@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;1,700&display=swap");
 
 * {
   box-sizing: border-box;
   max-width: 1440px;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   color: hsl(228, 39%, 23%);
 }
 
 .App {
   overflow: hidden;
+}
+
+html {
+  display: block;
+  margin: 0 auto !important;
+  float: none !important;
 }
