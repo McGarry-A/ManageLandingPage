@@ -50,6 +50,10 @@
   color: white;
   margin: 0;
   cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .hero .hero-right {
