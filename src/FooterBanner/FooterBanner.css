@@ -85,7 +85,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .footer-banner .footer-banner-left {
     font-size: 1.2em;
   }
