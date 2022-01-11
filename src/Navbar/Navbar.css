@@ -33,7 +33,7 @@ header nav .nav-list .nav-link-item {
   cursor: pointer;
 }
 
-header nav .nav-list .nav-hamburger {
+header nav .mobile-nav {
   display: none;
 }
 
@@ -56,13 +56,51 @@ header .nav-cta {
   header {
     padding: 2em;
   }
-  header nav .nav-link-item {
+  header nav .hidden {
     display: none;
   }
-  header nav .nav-list .nav-hamburger {
+  header nav .mobile-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    cursor: pointer;
+  }
+  header nav .mobile-nav-list {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    background-color: white;
+    z-index: 9999;
+    position: absolute;
+    top: 18.5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 0.5em 0;
+    border-radius: 5px;
+  }
+  header nav .mobile-nav-list .mobile-nav-item {
+    padding: 1.2em 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  header nav .mobile-nav-list .mobile-nav-item:hover {
+    text-decoration: underline;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
   }
   header .nav-cta-container {
     display: none;
